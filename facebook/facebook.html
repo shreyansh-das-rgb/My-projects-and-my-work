@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="refresh" content="1"> -->
+  <title>Facebook</title>
+  <style>
+    p{
+      margin: 0;
+    }
+    input{
+      padding: 5px 0px 5px 2px;
+    }
+    .the-start{
+      margin-left: 20px;
+      border-radius: 20px;
+      border: none;
+      padding-left: 10px;
+      /* margin-right: 20px; */
+    }
+    *{
+      font-family: arial;
+      margin: 0;
+      padding: 0;
+
+    }
+    .login{
+      padding: 5px 10px 5px 10px; color: white; 
+      font-weight: bold;
+        background: linear-gradient(120deg,rgba(255, 255, 255, 0.432),
+        rgb(0,89,255) 50%,rgba(255, 255, 255, 0.432));
+        border: blue solid;
+        cursor: pointer;
+        margin-left: 10px;
+        transition: all 0.15s;
+    }
+    .login:hover{
+      padding: 10px 20px 10px 20px;
+    }
+    .second-part{
+      /* display: inline-block; */
+      /* border: solid; */
+      width: 500px;
+    }
+    /* .first-part{ */
+      /* display: inline-block; */
+      /* border: solid red; */
+    /* } */
+ .name,.password,.Birth{
+    margin-bottom: 6px;
+ }
+ .Birth{
+   margin-left: 2px;
+ }
+ .sign-in{
+   background: linear-gradient(180deg,lightgreen,green);
+   border: none;
+   margin-left: 110px;
+   margin-top: 10px;
+   /* margin-right: -100px; */
+   padding: 5px 10px 5px 10px;
+   cursor: pointer;
+   transition: all 0.15s;
+ }
+ .sign-in:hover{
+   padding: 5px 50px 5px 50px;
+   border-radius: 50%;
+   margin-left: 30px;
+   margin-right: 10px;
+ }
+ .head,.body{
+   width: 100%;
+
+ }
+  </style>
+</head>
+<body style="padding-bottom: 1000px; background-color: rgb(253, 223, 197);">
+  <div style="display: flex;  flex-direction: column; justify-content: center; align-items: center; position: fixed; top: 0; bottom: 0; left: 0; right: 0;">
+    <div class="head" style="display: flex; justify-content: space-between;background-color: rgb(0, 89, 255); padding: 50px 7px 10px 10px; color: white;
+    max-width: 1050px;">
+      <div style="width: 200px; display: flex; align-items: flex-end; margin-bottom: -11px;
+      font-size: 40px; font-weight: bold;"><p>facebook</p></div>
+      <div class="main-thing">
+        <div style="display: inline-block; text-align: right;">
+          <form action="information.txt">
+            <input type="checkbox" name="remember" checked>Remember Email<br>
+            <input type="email" placeholder="Email"  class="the-start">
+          </form>
+        </div>
+        <div style="display: inline-block; text-align: right;" class="the-start">
+          <form action="thanks.html">
+            <p>Password</p>
+            <input type="password" placeholder="Password" class="the-start">
+          </div>
+          <!-- <button style="margin-left: 20px;">Login</button> -->
+          <input type="submit" value="Login" class="login">
+        </div>
+      </form>
+   </div>
+   <div class="body" style=" padding-top: 35px;padding-left: 10px;  background: linear-gradient(180deg,white,rgba(0, 81, 255, 0.479));
+   display: flex; justify-content: space-between; max-width: 1051px;">
+    
+       <div class="first-part">
+    <div class="text" style=" display: inline; font-weight: bold; line-height: 20px; font-size: 20px;color: rgb(5, 5, 126);">Facebook helps you connect and share with <br> the people of your life&period;</div>
+    <div class="image">
+    <img src="images1.jpg" alt="sorry" style="width: 500px;">
+    </div>
+  </div>
+    <div class="second-part">
+   <h1>Sign up</h1>
+    <p  style=" display: inline; font-weight: bold; line-height: 20px; font-size: 20px;color: rgb(5, 5, 126);">It's free and anyone can join</p>
+    <form action="login.html">
+      <p> First name: <input type="text" class="name"></p>
+      <p>Last name: <input type="text" class="name"></p>
+      <p>Password : <input type="password" class="password"></p>
+      <p>Birth date : <input type="date" name="Bdate" class="Birth"></p>
+      Gender :  Boy <input type="radio" name="Gender"> , Girl<input type="radio" name="Gender">, Better not to know <input type="radio" name="Gender">
+      <center><input type="submit" value="Sign in" class="sign-in"></center>
+    </form>
+  </div>
+    </div>
+  </div>
+</body>
+</html>

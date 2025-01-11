@@ -1,0 +1,79 @@
+.introduction1{
+    font-size: 60px;
+    font-weight: 550;
+}
+.starting{
+    background-image: url(jvnrfjiu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1010px;
+}
+p{
+    font-family: Roboto Slab;
+    font-size: 60px;
+}
+.start{
+    font-weight: bold;
+    font-size: 65px;
+}
+.now{
+    font-weight: bold;
+    font-size: 70px;
+}
+/*Japanese temple peace pagoda essay*/.rughuerh,
+                                        .iruguen,
+                                        .iehfi
+                                    .iugbfdgiure{
+    line-height: 100px;
+    font-weight: 500;
+}
+/*Japanese temple peace pagoda heading*/.iruth,
+/*Orange valley tea garden heading*/.ireug,
+                                    .Roopway,
+                                    .wuehyfg{
+    font-weight: 700; 
+    font-size: 150px; 
+    text-decoration: underline;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: 5500px;
+    background-repeat: repeat-y;
+}
+.next-page-link{
+    font-size: 100px;
+    transition: color 0.15s;
+}
+.next-page-link:hover{
+    color: brown;
+}
+.end{
+    background-image: url(jvnrfjiu1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2510px;
+}
+.grid{
+     display: grid;
+    grid-template-columns: 700px 1fr;
+}
+.grids{
+    display: grid;
+    grid-template-columns: 1fr 700px;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.valley-image{
+    height: 500px;
+    width: 80%;
+    border-radius: 50%;
+}
+.image{
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 50%;
+}

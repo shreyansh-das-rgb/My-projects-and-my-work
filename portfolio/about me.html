@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Shreyansh Das">
+  <meta name="description" content="This is My introduction to my 1st portfolio website">
+  <!-- <meta http-equiv="refresh" content="0; url=http://example.com"> -->
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <!-- <menu type="toolbar">Hello uhsreuiaidsuf</menu> -->
+  <meta name="keywords" content="tech,portfolio,intro,introduction,coding,glow">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="refresh" content="5"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Pixelify+Sans:wght@700&display=swap" rel="stylesheet">
+  <title>About Shreyansh Das</title>
+  <style>
+    .me{
+      font-size: 30px;
+      /* text-align: center; */
+    }
+    *{
+      color: white;
+    }
+    .my-image{
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .glow::before,.glow::after{
+      content: '';
+      position: absolute;
+      left: -5px;
+      top: -5px; 
+      bottom: -5px;     
+      right: -5px;
+      border-radius: 50%;
+      background: linear-gradient(45deg, #e6fb04,#ff6600,#00ff66,#00ffff,
+    #ff00ff,#ff0099,#6e0dd0,#ff3300,#099fff);
+    background-size: 400%;
+     width: calc(100% + 12px); 
+     height: calc(100% + 12px); 
+     z-index: -9878957893475973945737597;
+      animation: cool 5s infinite linear;
+    } 
+     @keyframes cool {
+      0%{
+        background-position: 0 0;
+      }
+      50%{
+        background-position: 300% 0%;
+      }
+      100%{
+        background-position: 0 0;
+      }
+    } 
+    .glow::after{
+      filter: blur(20px);
+    }
+    .my{
+      border: solid red;
+      height: 10px;
+      height: 300px;
+      width: 300px;
+      position: relative;
+      -moz-border-radius: 60px;
+      border-radius: 50%;
+      border: solid red;
+      z-index: 999;
+    }
+    .go-back{
+      color: blue;
+      font-size: 30px;
+      cursor: pointer;
+      text-shadow: 0px 0px 10px lightblue,0px 0px 25px lightblue,
+      0px 0px 35px lightblue,0px 0px 10px lightblue,0px 0px 25px lightblue,
+      0px 0px 35px lightblue,0px 0px 10px blue,0px 0px 75px rgb(6, 10, 243),0px 0px 10px blue,0px 0px 20px rgb(6, 10, 243);
+      transition: all 0.5s;
+      text-decoration: none;
+    }
+    .go-back:hover{
+      color: red;
+      text-decoration: underline;
+    }
+    .glowing-fuck{
+      font-family: 'Pacifico', cursive;
+      margin-top: 30px;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 50px;
+      animation: glowCool 1s infinite alternate;
+    }
+    @keyframes glowCool {
+      0%{
+        color: white;
+        text-shadow: 0px 0px 10px lightblue,0px 0px 15px lightblue,0px 0px 20px lightblue;
+      }
+      10%{
+        color: white;
+        text-shadow: none;
+      }
+      15%{
+        color: white;
+        text-shadow: none;
+      }
+      20%{
+        color: white;
+        text-shadow: 0px 0px 10px lightblue,0px 0px 15px lightblue,0px 0px 20px lightblue;
+      }
+      100%{
+        color: white;
+        text-shadow:  0px 0px 10px lightblue,0px 0px 15px lightblue,0px 0px 20px lightblue;
+      }
+
+    }
+    .facebook-page{
+      font-weight: bold;
+      font-style: italic;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .facebook-page:hover{
+      text-decoration: underline;
+      color: blue;
+    }
+    .facebook-page:active{
+      color: red;
+    }
+      </style>
+</head>
+<center>
+<body bgcolor="black">
+  <div class="my"><div class="glow"><img src="me.jpg" alt="sorry" class="my-image"></div></div>
+  <div class="glowing-fuck">Shreyansh Das</div>  
+    I am Shreyansh Das. I have  recently started coding about 5 months ago
+    This is one of my first portfolio websites that I have made anyways let me give you my introduction I am Shreyansh Das I read in DPS (Durgapur Public School not Delhi Public School so don't get confused) <br> 
+    I am in class 7 (in few months I will be in class 8).My Birthday is in <span class="birthday">29th Sep</span>.My age is 13.Sience childhood i have a interst in conputer and coding but i didn't know where to learn how to learn after some years I have told my father to buy me a html and css coding book.After 5 months I have mastered the basics like html,css,css grid,css flexbox,div,etc.My hobies are (i will not tell).I enjoy the coding process I like it I love it.I can play Piano.you can get it from my facebook page <span class="facebook-page">Swati Munshi</span>(This link is not working search it in facebook).I live in Durgapur,West Bengal<br><br>
+    <a href="portfolio.html" style="text-decoration: none;"><span class="go-back"><-- Go back --></span></a>
+  </center>
+</body>
+</html>
