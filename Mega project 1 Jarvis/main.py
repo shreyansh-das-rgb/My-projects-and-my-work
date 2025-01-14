@@ -10,7 +10,7 @@ import os
 
 
 engine = pyttsx3.init()
-newsapi = "ab2f38fe4b5a4585b17a7a290f9e6913"
+newsapi = "PUT YOUR API KEY"
 
 def speak_old(text):
     engine.say(text)
@@ -37,7 +37,7 @@ def speak(text):
     os.remove("temp.mp3")
 
 def aiProcess(command):
-       genai.configure(api_key="AIzaSyCKG6YFc23MhplPbSdcVuxrCrxPVjhT1zQ")
+       genai.configure(api_key="PUT YOUR API KEY")
        model = genai.GenerativeModel("gemini-1.5-flash")
        # Create a generation configuration to limit output tokens
        generation_config = genai.GenerationConfig(
