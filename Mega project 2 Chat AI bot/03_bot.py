@@ -18,7 +18,7 @@ def clear_clipboard():
 clear_clipboard()
 
 
-genai.configure(api_key="AIzaSyCKG6YFc23MhplPbSdcVuxrCrxPVjhT1zQ")
+genai.configure(api_key="GIVE UR API KEY")
 # Step 1: Click on the icon
 pyautogui.click(1218,1056)
 pyautogui.click(1218,1056)
